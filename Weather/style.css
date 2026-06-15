@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(39, 113, 197, 0.466);
+    
+
+}
+.box{
+     width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    background:rgba(9, 71, 143, 0.466);
+    border-radius: 20px;
+    padding: 20px;
+    color:#000;
+}
+
+#city{
+    border:none;
+   outline: none;
+   margin:0 10px;
+   font-size: 20px;
+   border-radius: 8px;
+   padding:8px 3px;
+}
+#search{
+    border:none;
+    font-size: 20px;
+    padding:3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#temp{
+    font-size: 50px;
+    font-weight: bold;
+}
+#name{
+    font-size: 32px;
+    margin: 10px 0;
+}
+#ico{
+    width: 120px;
+}
+#search:hover{
+    transform: scale(1.05);
+}
